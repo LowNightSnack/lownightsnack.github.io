@@ -1,6 +1,6 @@
 ## mamoorjaankhan.github.io
 
-**About**
+# About
 
 This GitHub page is maintained by @MamoorJaanKhan.
 You are absolutely free to critisize and introduce changes

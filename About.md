@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "About"
+title: about
 permalink: https://mamoorjaankhan.github.io/about
+
 ---
 
 # About

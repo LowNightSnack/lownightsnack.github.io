@@ -1,8 +1,8 @@
 ## Welcome to Mamoor's GitHub Page ;)
 
-You can use the [editor on GitHub](https://github.com/MamoorJaanKhan/mamoorjaankhan.github.io) to propose cahnges and preview the content in my website.
+You can use the [editor on GitHub](https://github.com/MamoorJaanKhan/mamoorjaankhan.github.io) to propose changes and preview the content in my website.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#About Markdown
 
 ### Markdown
 

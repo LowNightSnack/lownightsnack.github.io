@@ -19,4 +19,4 @@ Looks dope, isn't it?
 Having trouble with My Pages? Check out this [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-[About](https://mamoorjaankhan.github.io/about.md)
+[About](https://mamoorjaankhan.github.io/about)

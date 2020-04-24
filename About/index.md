@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about
-permalink: https://mamoorjaankhan.github.io/about
+permalink: /about
 
 ---
 

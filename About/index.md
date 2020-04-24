@@ -2,7 +2,7 @@
 layout: page
 title: about
 permalink: /about
-
+theme: jekyll-theme-hacker
 ---
 
 # About

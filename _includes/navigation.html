@@ -1,0 +1,54 @@
+<div class="top-bar">
+  <nav class="top-bar">
+    <!-- this is for exclusive info -->
+    <!-- <a href="google.com">yo this is exclusive</a> -->
+  </nav>
+</div>
+<div class="sticky-navbar">
+  <header class="sticky-navbar-desktop">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="{% if page.url == item.link %}current{% else %}normal{% endif %} ">
+      <i class="material-icons-round">{{ item.icon }}</i>
+      {{ item.name }}
+    </a>
+    {% endfor %}
+  </header>
+  <header class="sticky-navbar-mobile">
+    {% for item in site.data.navigation %}
+    {% if page.url == item.link %}
+    <a href="{{ item.link }}" class="current">
+      <i class="material-icons-round">{{ item.icon }}</i>
+      {{ item.name }}
+    </a>
+    {% endif %}
+    {% endfor %}
+    <div style="display: flex; flex-grow: 1;">
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <script>
+          jQuery(function ($) {
+            $('#nav-icon').click(function () {
+              $(this).toggleClass('open');
+              $("#hidden-navs-div").toggleClass('drawer-close');
+              $("#hidden-navs-div").toggleClass('drawer-open');
+            });
+          });
+        </script>
+      </div>
+    </div>
+  </header>
+  <div id="hidden-navs-div" class="drawer--top drawer-close">
+    <div id="hidden-navs" class="drawer-nav">
+      {% for item in site.data.navigation %}
+      {% if page.url != item.link %}
+      <a href="{{ item.link }}" class="normal">
+        {{ item.name }}
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="drawer-overlay drawer-toggle"></div>
+  </div>
+</div>

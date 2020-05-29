@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+  icon: home
+- name: About
+  link: /about.html
+  icon: account_circle
+- name: Blog
+  link: /blog.html
+  icon: whatshot
+- name: Staff
+  link: /staff.html
+  icon: stars

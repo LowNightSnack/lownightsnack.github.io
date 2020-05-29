@@ -4,8 +4,6 @@ description: >-
   This is an attempt to web development using Jekyll
   static site blog-aware generator.
 
-url: https://mjkjekyllv3.netlify.app/
-
 collections:
   authors:
     output: true

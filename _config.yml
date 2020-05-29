@@ -1,0 +1,32 @@
+title: Mamoor Jaan Khan, meta MamoorJaanKhan
+
+description: >-
+  This is an attempt to web development using Jekyll
+  static site blog-aware generator.
+
+url: https://mjkjekyllv3.netlify.app/
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

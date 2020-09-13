@@ -1,4 +1,4 @@
-# mamoorjaankhan.github.io
+# lownightsnack.github.io
 Hello, *coder*!
 
 This site is more like an experiment playground.
